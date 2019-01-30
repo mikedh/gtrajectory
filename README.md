@@ -16,11 +16,11 @@ The library is intended to do ONLY the trajectory conversion; actually running t
 The motivation for this is pretty simple: in a lights out part- generic CNC cell with automatic loading and unloading (pallet changer + robot), we want our system controller to be able to run new tool paths automatically from a remote server. One could jerry rig the CNC controller to accept new motion automatically, but that would remove most of the point of the expensive box (operator interface) and be quite janky. It would be much nicer if the CNC controls were replaced by a regular motion controller which can take commands over the network.  
 
 ## Targeted Motion Controllers
-[Galil DMC-4xxx Series](http://www.galilmc.com/motion-controllers/multi-axis/dmc-42x0)
-[Elmo Maestro](https://www.elmomc.com/products/industrial-environment/multi-axis-controller/)
-[Aerotech Ensemble](https://www.aerotech.com/product-catalog/motion-controller/ensemble.aspx)
-[Clearpath-SC](https://www.teknic.com/products/clearpath-brushless-dc-servo-motors/clearpath-sc/)
-[Siemens SIMOTION C](https://new.siemens.com/global/en/products/automation/systems/motion-control/simotion-hardware/simotion-c.html)
+- [Galil DMC-4xxx Series](http://www.galilmc.com/motion-controllers/multi-axis/dmc-42x0)
+- [Elmo Maestro](https://www.elmomc.com/products/industrial-environment/multi-axis-controller/)
+- [Aerotech Ensemble](https://www.aerotech.com/product-catalog/motion-controller/ensemble.aspx)
+- [Clearpath-SC](https://www.teknic.com/products/clearpath-brushless-dc-servo-motors/clearpath-sc/)
+- [Siemens SIMOTION C](https://new.siemens.com/global/en/products/automation/systems/motion-control/simotion-hardware/simotion-c.html)
 
 ## Workflow
 
